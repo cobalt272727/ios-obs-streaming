@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1AA9642C6F5B8B00E48E5A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA9632C6F5B8B00E48E5A /* App.swift */; };
+		1D1AA9662C6F5B8B00E48E5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA9652C6F5B8B00E48E5A /* ContentView.swift */; };
+		1D1AA9682C6F5B8C00E48E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AA9672C6F5B8C00E48E5A /* Assets.xcassets */; };
+		1D1AA96B2C6F5B8C00E48E5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AA96A2C6F5B8C00E48E5A /* Preview Assets.xcassets */; };
+		1D1AA9732C6F5BC100E48E5A /* StreamingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA9722C6F5BC100E48E5A /* StreamingManager.swift */; };
+		1D1AA9752C6F5BC800E48E5A /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA9742C6F5BC800E48E5A /* CameraManager.swift */; };
+		1D1AA9772C6F5BD000E48E5A /* StreamingConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA9762C6F5BD000E48E5A /* StreamingConfiguration.swift */; };
+		1D1AA9792C6F5BD700E48E5A /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA9782C6F5BD700E48E5A /* CameraPreviewView.swift */; };
+		1D1AA97B2C6F5BDD00E48E5A /* StreamingControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA97A2C6F5BDD00E48E5A /* StreamingControlView.swift */; };
+		1D1AA97D2C6F5BE300E48E5A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA97C2C6F5BE300E48E5A /* SettingsView.swift */; };
+		1D1AA97F2C6F5BEA00E48E5A /* RTMPStreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA97E2C6F5BEA00E48E5A /* RTMPStreamer.swift */; };
+		1D1AA9812C6F5BF000E48E5A /* WHIPStreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA9802C6F5BF000E48E5A /* WHIPStreamer.swift */; };
+		1D1AA9832C6F5BF600E48E5A /* VideoEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1AA9822C6F5BF600E48E5A /* VideoEncoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D1AA9602C6F5B8B00E48E5A /* iOS-OBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-OBS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1AA9632C6F5B8B00E48E5A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		1D1AA9652C6F5B8B00E48E5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D1AA9672C6F5B8C00E48E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D1AA96A2C6F5B8C00E48E5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D1AA9722C6F5BC100E48E5A /* StreamingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingManager.swift; sourceTree = "<group>"; };
+		1D1AA9742C6F5BC800E48E5A /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		1D1AA9762C6F5BD000E48E5A /* StreamingConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingConfiguration.swift; sourceTree = "<group>"; };
+		1D1AA9782C6F5BD700E48E5A /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		1D1AA97A2C6F5BDD00E48E5A /* StreamingControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingControlView.swift; sourceTree = "<group>"; };
+		1D1AA97C2C6F5BE300E48E5A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1D1AA97E2C6F5BEA00E48E5A /* RTMPStreamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTMPStreamer.swift; sourceTree = "<group>"; };
+		1D1AA9802C6F5BF000E48E5A /* WHIPStreamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHIPStreamer.swift; sourceTree = "<group>"; };
+		1D1AA9822C6F5BF600E48E5A /* VideoEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEncoder.swift; sourceTree = "<group>"; };
+		1D1AA9842C6F5C0300E48E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D1AA95D2C6F5B8B00E48E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D1AA9572C6F5B8B00E48E5A = {
+			isa = PBXGroup;
+			children = (
+				1D1AA9622C6F5B8B00E48E5A /* iOS-OBS */,
+				1D1AA9612C6F5B8B00E48E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D1AA9612C6F5B8B00E48E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AA9602C6F5B8B00E48E5A /* iOS-OBS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D1AA9622C6F5B8B00E48E5A /* iOS-OBS */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AA9842C6F5C0300E48E5A /* Info.plist */,
+				1D1AA9632C6F5B8B00E48E5A /* App.swift */,
+				1D1AA9652C6F5B8B00E48E5A /* ContentView.swift */,
+				1D1AA9712C6F5BB000E48E5A /* Models */,
+				1D1AA9852C6F5C1B00E48E5A /* Views */,
+				1D1AA9862C6F5C2100E48E5A /* Network */,
+				1D1AA9872C6F5C2700E48E5A /* Utils */,
+				1D1AA9672C6F5B8C00E48E5A /* Assets.xcassets */,
+				1D1AA9692C6F5B8C00E48E5A /* Preview Content */,
+			);
+			path = "iOS-OBS";
+			sourceTree = "<group>";
+		};
+		1D1AA9692C6F5B8C00E48E5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AA96A2C6F5B8C00E48E5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D1AA9712C6F5BB000E48E5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AA9722C6F5BC100E48E5A /* StreamingManager.swift */,
+				1D1AA9742C6F5BC800E48E5A /* CameraManager.swift */,
+				1D1AA9762C6F5BD000E48E5A /* StreamingConfiguration.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D1AA9852C6F5C1B00E48E5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AA9782C6F5BD700E48E5A /* CameraPreviewView.swift */,
+				1D1AA97A2C6F5BDD00E48E5A /* StreamingControlView.swift */,
+				1D1AA97C2C6F5BE300E48E5A /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D1AA9862C6F5C2100E48E5A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AA97E2C6F5BEA00E48E5A /* RTMPStreamer.swift */,
+				1D1AA9802C6F5BF000E48E5A /* WHIPStreamer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1D1AA9872C6F5C2700E48E5A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AA9822C6F5BF600E48E5A /* VideoEncoder.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D1AA95F2C6F5B8B00E48E5A /* iOS-OBS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1AA96E2C6F5B8C00E48E5A /* Build configuration list for PBXNativeTarget "iOS-OBS" */;
+			buildPhases = (
+				1D1AA95C2C6F5B8B00E48E5A /* Sources */,
+				1D1AA95D2C6F5B8B00E48E5A /* Frameworks */,
+				1D1AA95E2C6F5B8B00E48E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-OBS";
+			productName = "iOS-OBS";
+			productReference = 1D1AA9602C6F5B8B00E48E5A /* iOS-OBS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D1AA9582C6F5B8B00E48E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1D1AA95F2C6F5B8B00E48E5A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D1AA95B2C6F5B8B00E48E5A /* Build configuration list for PBXProject "iOS-OBS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D1AA9572C6F5B8B00E48E5A;
+			productRefGroup = 1D1AA9612C6F5B8B00E48E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D1AA95F2C6F5B8B00E48E5A /* iOS-OBS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D1AA95E2C6F5B8B00E48E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1AA96B2C6F5B8C00E48E5A /* Preview Assets.xcassets in Resources */,
+				1D1AA9682C6F5B8C00E48E5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D1AA95C2C6F5B8B00E48E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1AA9772C6F5BD000E48E5A /* StreamingConfiguration.swift in Sources */,
+				1D1AA9832C6F5BF600E48E5A /* VideoEncoder.swift in Sources */,
+				1D1AA9732C6F5BC100E48E5A /* StreamingManager.swift in Sources */,
+				1D1AA9662C6F5B8B00E48E5A /* ContentView.swift in Sources */,
+				1D1AA97D2C6F5BE300E48E5A /* SettingsView.swift in Sources */,
+				1D1AA9792C6F5BD700E48E5A /* CameraPreviewView.swift in Sources */,
+				1D1AA97F2C6F5BEA00E48E5A /* RTMPStreamer.swift in Sources */,
+				1D1AA9812C6F5BF000E48E5A /* WHIPStreamer.swift in Sources */,
+				1D1AA97B2C6F5BDD00E48E5A /* StreamingControlView.swift in Sources */,
+				1D1AA9642C6F5B8B00E48E5A /* App.swift in Sources */,
+				1D1AA9752C6F5BC800E48E5A /* CameraManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D1AA96C2C6F5B8C00E48E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D1AA96D2C6F5B8C00E48E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D1AA96F2C6F5B8C00E48E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-OBS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "iOS-OBS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-OBS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D1AA9702C6F5B8C00E48E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-OBS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "iOS-OBS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.iOS-OBS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D1AA95B2C6F5B8B00E48E5A /* Build configuration list for PBXProject "iOS-OBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1AA96C2C6F5B8C00E48E5A /* Debug */,
+				1D1AA96D2C6F5B8C00E48E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D1AA96E2C6F5B8C00E48E5A /* Build configuration list for PBXNativeTarget "iOS-OBS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1AA96F2C6F5B8C00E48E5A /* Debug */,
+				1D1AA9702C6F5B8C00E48E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D1AA9582C6F5B8B00E48E5A /* Project object */;
+}
